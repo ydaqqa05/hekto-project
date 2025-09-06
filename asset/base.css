@@ -1,0 +1,47 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+a {
+    text-decoration: none;
+}
+
+ul {
+    list-style-type: none;
+}
+
+:root {
+    --primary: #FB2E86;
+    --mainfont: "Lato", sans-serif;
+}
+
+.btn {
+
+    color: #FFFFFF;
+    border-radius: 2px;
+    border: none;
+    outline: border;
+    padding: 16px 40px;
+}
+
+.btn-primary {
+    background-color: var(--primary);
+}
+
+.btn-success {
+    background-color: #08D15F;
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.container {
+    width: calc(100% - 320px);
+    margin: auto;
+}
+
