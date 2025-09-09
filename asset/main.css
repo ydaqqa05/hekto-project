@@ -29,6 +29,7 @@ body {
 .search form {
     border: 3px solid #E7E6EF;
     border-radius: 5px;
+    display: flex;
 }
 
 .search form input {
@@ -57,7 +58,7 @@ body {
 
     }
 
-    .iist,
+    .list ul,.header
     .search {
         display: none;
     }
@@ -68,26 +69,44 @@ body {
     background-color: #EEEFFB;
     padding: 50px 0;
 }
-
+.footer .row{
+    gap: 30px;
+}
 .footer .left-side {
     gap: 35px;
-   
+   width: calc((100% - 30px) /2);
     align-items: flex-start;
  
 }
-.footer a{
+.address-info,.footer a{
     color: #8A8FB9;
 }
 .footer .right-side {
-    width: 60%;
+    width: calc((100% - 30px) /2); 
+}
+.footer .right-side .row{
+    gap:35px;
+    align-items: flex-start;
+}
+ .footer-item{
+    gap: 45px;
+    width: calc((100% - 70px) /3);
     
 }
-.address-info{
-    color: #8A8FB9;
+@media screen and (max-width:992px) {
+    .footer .left-side,.footer .right-side{
+        width: 100%;
+    }
 }
-.right-side .footer-item{
-    gap: 45px;
+@media screen and (max-width:576px) {
+  .footer{
+    text-align: center;
+  }
+    .footer-item{
+        width: 100%;
+    }
 }
+
 /* .footer-item nav{
     flex-direction: column;
     display: flex;
