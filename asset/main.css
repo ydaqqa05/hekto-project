@@ -248,6 +248,40 @@ margin-right: 10px;
     color: red;
     margin-left: 5px;
 }
+.what-shopex-offer{
+    margin-top: 50px;
+    text-align: center;
+
+}
+.what-shopex-offer .row{
+    justify-content: flex-start;
+    gap: 28px;
+
+}
+.what-shopex-offer h2{
+    margin-bottom: 50px;color: #151875;
+}
+
+.offer{
+   width: 200px;
+   height: 250px;
+   flex-grow: 1;
+}
+.what-shopex-offer img{
+    margin-bottom: 20px;
+}
+.offer-details{
+   display: flex;
+   flex-wrap: wrap;
+   flex-direction: column;
+   gap: 20px;
+   color: #1A0B5B;
+}
+
+.offer-details p{
+    font-size: 17px;
+   opacity: 0.6;
+}
 .footer .left-side .search button {
     width: 135px;
     height: 39px;
