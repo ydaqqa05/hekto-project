@@ -175,41 +175,78 @@ font-size: 16px;
 .Leatest-products .container h2{
     margin-bottom: 19px;
 }
-.Leatest-products .container .leatest-nav{
+ .leatest-nav{
     margin-bottom: 58px;
     width: 530px;
     gap: 60px;
+}
+.leatest-nav li:hover a{
+    color: red;
+    text-decoration: underline;
 }
 .Leatest-products .all-leatest-product {
     display: grid;
     grid-template-columns: repeat(3, 1fr); 
     gap: 20px;
 }
-.Leatest-products .all-leatest-product .leatest-product {
-    width: 30%;
+ .leatest-product {
+    width: 90%;
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
     position: relative;
     min-width: 250px;
+    box-shadow: 0px 1px 1px #00000040;
 }
-.Leatest-products .all-leatest-product .leatest-product .img {
+ .leatest-product .img {
   
     background: #F7F7F7;
     border-radius: 4px;
-    width: 70%;
+    width: 80%;
     height: 250px;
     
 }
-.Leatest-products .all-leatest-product .leatest-product .img img{
-    width: 100%;
+.leatest-product .img::before{
+    content: url("./img/public/badge-sale.png");
+    position: absolute;
+    top: 0;
+    left: 20px;
+    display: none;
+    z-index: 1;
+ }
+
+ .leatest-product .img img{
+    width: 80%;
     object-fit: contain;
-    height: 100%;
+    height: 90%;
 }
 .leatest-details{
     margin-bottom: 40px;
     margin-top: 15px;
+    font-size: 12px;
+    font-family: "Josefin Sans", sans-serif;
+   gap: 40px;
+}
+.leatest-details h5{
+    font-family: "Josefin Sans";
+    font-style: normal;
+    font-weight: 100;
+    font-size: 12px;
+    line-height: 16px;
+    text-align: left;
+    color: #151875;
+    border-bottom: 2px solid #EEEFFB;
+    padding-bottom: 4px;
+}
+.price {
+margin-right: 10px;
+}
+
+.price .old{
+    text-decoration: line-through;
+    color: red;
+    margin-left: 5px;
 }
 .footer .left-side .search button {
     width: 135px;
@@ -245,6 +282,16 @@ font-size: 16px;
   font-size: 20px;
   transition: all 0.6s;
 }
+.leatest-product .button-list {
+    left: 25px;
+   top: 120px;
+}
+.leatest-product .button-list button{
+    color: #2F1AC4;
+}
+.leatest-product:hover .button-list button{
+    opacity: 1;
+}
 .product:hover .button-list button{
 opacity: 1;
 }
@@ -253,6 +300,9 @@ opacity: 1;
     border-radius: 100%;
     color: #2F1AC4;
     background-color: #EEEFFB;
+}
+.leatest-product:hover .img::before {
+   display: block;
 }
 .product .details-btn{
     position: absolute;
@@ -356,6 +406,7 @@ color: #fff;
     background-color: #FFEAC1;
 }
 .newslater{
+   margin-top: 20px;
 background-image: url(./img/public/Rectangle\ .webp);
 padding: 175px 0;
 text-align: center;
