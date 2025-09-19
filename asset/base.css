@@ -45,7 +45,8 @@ ul {
     width: calc(100% - 320px);
     margin: auto;
 }
-@media screen  and (max-width:1400px) {
+ 
+ @media screen  and (max-width:1400px) {
     .container{
         width: calc(100% - 200px);
     }
@@ -60,6 +61,12 @@ ul {
         width: calc(100% - 40px);
     }
 }
+@media screen and (max-width: 600px) {
+    .container {
+        width: 100%;
+        padding: 0 20px;
+    }
+} 
 .text-white{
     color: #fff;
 }
