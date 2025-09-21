@@ -971,16 +971,28 @@ color: #fff;
     color: #FB2E86;
 } 
 .newslater{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    width: 100%;
+    background-position: center;
+    background-size: cover;
    margin-top: 20px;
 background-image: url(./img/public/Rectangle\ .webp);
 padding: 175px 0;
 text-align: center;
+align-items: center;
 
 }
-.newslater h2{
-    margin-bottom: 50px;
+.newslater .title{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+
+    margin-bottom: 28px;
     color: #151875;
     font-size: 35px;
+    gap: 15px;
 }
 .shop-btn{
     transition: all 0.5s;
