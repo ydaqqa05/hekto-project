@@ -388,7 +388,7 @@ unique-features{
     font-size: 14px;
     font-weight: 400;
  }
-.unique-feat{
+.unique-feature{
     display: flex;
     justify-content: center;
     align-items: center;
@@ -455,7 +455,7 @@ unique-features{
    .unique-features .right-unique{
        width: 100%;
    }
-   .unique-feat{
+   .unique-feature{
        flex-direction: column;
    }
 }
@@ -465,7 +465,7 @@ unique-features{
        box-sizing: border-box;
        padding: 0 10px;
    }
-   .unique-feat{
+   .unique-feature{
        overflow: hidden;
    }
    .unique-features img{
@@ -647,6 +647,7 @@ opacity: 1;
    flex-wrap: wrap;
     justify-content: flex-start;
 gap: 30px;
+margin-bottom: 55px;
 }
 /* .badge-sale{
     position: absolute;
@@ -717,6 +718,9 @@ color: #fff;
 }
 .product:hover .color-three{
     background-color: #FFEAC1;
+}
+.scroll .under-feat{
+    gap: 7px;
 }
 .discount-item h2{
     display: flex;
@@ -837,6 +841,7 @@ color: #fff;
 .Top-Categories .row{
     justify-content: center;
     gap: 30px;
+    margin-bottom: 38px;
 }
 .top-product {
     width: 270px;
@@ -889,6 +894,13 @@ color: #fff;
     background-color: #08D15F;
     border-radius: 3px;
     margin-top: 10px;
+ }
+ .scroll{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items:center ;
+    gap: 12px;
  }
  .Leatest-Blog{
     padding-bottom: 120px;
