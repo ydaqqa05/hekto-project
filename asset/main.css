@@ -49,6 +49,7 @@ body {
     outline: none;
     background-color: var(--primary);
     padding: 8px 13px;
+    cursor: pointer;
 }
 
 .hero {
@@ -95,13 +96,6 @@ body {
 }
 
 
-/* .hero-content  .hero-lamp{
-  position: absolute;
-top: 0;
-left: 50px;
-font-size: 50px;
-  
-} */
 
 .hero .hero-lamp {
     position: relative;
@@ -127,18 +121,7 @@ font-size: 50px;
     }
 
 }
- /* .hero-content .hero-text:before{
-    
-    content: url("./img/public/hero-lamp.png"); 
-   display: flex;
-   flex-wrap: nowrap;
-    position: absolute; 
-    top: 0;
-    left: -40px;
-    width: 100px; 
-    height: auto;
-    animation: slideInFromLeft 2s;
- } */
+
   
  @keyframes slideInFromLeft {
     from {
@@ -169,16 +152,7 @@ font-size: 50px;
    
 }
 
-/* @media screen and (max-width:700px) {
-    .hero-btn{
-        margin-left: 100px;
-    }
-}
-@media screen and (min-width:701px) and (max-width:800px) {
-    .hero-btn{
-        margin-left: 160px;
-    }
-} */
+
 .hero-content .hero-text .hero-desc{
 color: #8A8FB9;
 font-family: "Lato", sans-serif;
