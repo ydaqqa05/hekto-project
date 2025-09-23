@@ -229,7 +229,7 @@ font-size: 16px;
 }
 
 .leatest-product .img::before{
-    content: url("./img/public/badge-sale.png");
+    content: url("./img/public/badge-sale.webp");
     position: absolute;
     top: 0;
     left: 20px;
