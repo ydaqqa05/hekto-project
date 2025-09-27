@@ -112,4 +112,9 @@ ul {
  }
  .text-bold{
     font-weight: bold;
- }
+ }@media (max-width: 576px) {
+    .container,section,footer,header {
+     padding:0 15px;
+      box-sizing: border-box;
+    }
+  }
